@@ -1,13 +1,81 @@
+html {font-size: 28px}
+
 body {
-    font-family: sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     width: 680px;
-    height: 1190px;
+    height: 1200px;
+    font-size: 1rem;
+    padding: 10px 15px 15px 15px;
+    border: 2px solid black;
+    box-sizing: border-box;
 }
 
-/*th + td:empty {*/
-/*    padding: 1px 2px;*/
-/*}*/
+header {border-bottom: 15px solid black;}
 
-dt, dd {
-   display: inline-block; 
+h1 {
+    font-family: "Libre Franklin", Arial, sans-serif;
+    font-size: 2rem;
+    margin: 0;
 }
+
+h2 {
+    font-size: 1rem;
+    margin: 0;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+p {
+    margin: 0;
+}
+
+header p:nth-of-type(2) {border-bottom: 30px solid black; padding-bottom: 5px;}
+
+header p:nth-of-type(3) {
+    text-align: left;
+    display: inline-block;
+    padding: 5px 0;
+    width: 50%;
+}
+
+header p:nth-of-type(4) {
+    text-align: right;
+    display: inline-block;
+    padding: 5px 0;
+    width: 48.7%;
+}
+
+
+dl, dt, dd {
+   display: inline-block;
+   box-sizing: border-box;
+   margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 650px;
+}
+
+td, th {
+    border: 1px dotted black;
+    with: auto;
+}
+
+table dt {
+    font-weight: bold;
+}
+
+table tr:nth-child(3) dt {
+    font-weight: normal;
+}
+table tr:nth-child(4) dt {
+    font-weight: normal;
+}
+table tr:nth-child(8) dt {
+    font-weight: normal;
+}
+table tr:nth-child(9) dt {
+    font-weight: normal;
+}
+

@@ -19,7 +19,7 @@ h1 {
 }
 h2 {
   margin: 5px 0 0 0;
-  font-size: 30px;
+  font-size: 28px;
   padding: 10px 0;
   border-top: 30px solid #000000;
   border-bottom: 1px solid #000000;
@@ -115,6 +115,6 @@ table + table thead th {
   border-bottom: 1px solid #000000;
 }
 td.secondary{
-    width: 33px;
+    width: 28px;
     border-top:none;
 }

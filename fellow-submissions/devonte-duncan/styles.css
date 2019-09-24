@@ -15,7 +15,9 @@ dl{
   padding-top: 5px;
   padding-right: 0px;
   padding-left: 0px;
+  height: 38px;
 }
+
 
 dd{
   margin-left: 0px;
@@ -35,6 +37,7 @@ aside{
   display: flex;
   border-bottom: 15px solid #000000;
   padding-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 article{
@@ -43,6 +46,7 @@ article{
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 10px;
+  padding-bottom: 25px;
 }
 /* Nutrition Facts */
 header h1:only-of-type{
@@ -96,13 +100,82 @@ li dl:nth-of-type(2){
   flex-direction: row-reverse; 
 }
 
+li:nth-child(3){
+  margin-left: 1rem;
+}
+
+li:nth-child(4){
+  margin-left: 1rem;
+}
+
+li:nth-child(8){
+  margin-left: 1rem;
+}
+
+li:nth-child(9){
+  margin-left: 1rem;
+}
 li:nth-child(10){
   border-bottom: 20px solid #000000;
 }
 
 main p:only-of-type{
-  padding-top: 14px;
-  padding-bottom:14px;
-  padding-left: 19.6px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  font-size: .9rem;
+  width: 100%;
+  text-align: justify;
   
+}
+
+dl dt:only-child{
+  font-weight: bold;
+}
+
+td{
+  font-size: .8rem;
+  
+}
+
+thead{
+  border-bottom: 1px solid #000000;
+}
+th{
+  padding: 1px;
+  font-size: .8rem;
+  text-align: left;
+}
+
+table th:first-of-type{
+  padding-left: 35px;
+}
+
+tbody{
+  padding: 2px;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .8rem;
+}
+
+tr{
+  font-size: .8rem;
+}
+
+#indent{
+  margin-left: 20px;
+}
+
+sup{
+  vertical-align: super;
+}
+
+i{
+  font-style: italic;
+}
+
+aside dl:nth-of-type(2){
+  flex-direction: row-reverse; 
 }

@@ -47,14 +47,17 @@ header{
     margin-bottom:10px;
     
 }
-section header dl + dt{
-    text-align: right;
-}
-section header dl {
-    display: inline;
+/*section header dl + dt{*/
+/*    text-align: right;*/
+/*}*/
+/*section header dl {*/
+/*    display: inline;*/
    
+/*}*/
+header dl + dl{
+    width:50%;
+    padding-left:37%;
 }
-
  dt{
      display: inline;
      text-align: right;
@@ -135,3 +138,8 @@ table + table{
 table + table thead{
     width:37%;
 } 
+
+table + table :last-child {
+      padding-right:90px;
+    
+}

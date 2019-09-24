@@ -47,6 +47,14 @@ header{
     margin-bottom:10px;
     
 }
+section header dl + dt{
+    text-align: right;
+}
+section header dl {
+    display: inline;
+   
+}
+
  dt{
      display: inline;
      text-align: right;
@@ -55,6 +63,7 @@ header{
      display:inline;
      margin:0;
      font-weight:normal;
+      
  }
  dl{
      display: inline;
@@ -72,7 +81,6 @@ tbody th{
 }
 
 tbody td{
-    padding:2px;
     border-top:1px solid rgb(0,0,0);
     width:100%;
     
@@ -87,6 +95,7 @@ td.indent{
 
 table + table td{
     border:none;
+    width:42%;
     
 }
 table + table thead th {

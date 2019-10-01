@@ -1,0 +1,145 @@
+table{
+    border-collapse: collapse;
+    width:100%;
+    border-spacing:0;
+}
+section{
+    width:678px;
+    border:2px solid rgb(0,0,0);
+    padding-top:8px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    
+}
+h1{
+    margin:0;
+    font-size:2rem;
+}
+p{
+    margin:0;
+}
+
+h2{
+    padding:10px 0;
+    margin:5px 0;
+    border-top:30px solid rgb(0,0,0);
+    border-bottom:1px solid rgb(0,0,0);
+    font-size:1rem;
+
+}
+
+
+
+
+tbody + tbody tr:first-of-type td {
+    border-top:20px solid rgb(0,0,0);
+}
+tfoot td:last-of-type{
+    border-top:1px solid rgb(0,0,0);
+    padding:12px;
+    text-align:left;
+    font-size:.9rem;
+}
+
+header{
+    border-bottom:15px solid rgb(0,0,0);
+    margin-bottom:10px;
+    
+}
+/*section header dl + dt{*/
+/*    text-align: right;*/
+/*}*/
+/*section header dl {*/
+/*    display: inline;*/
+   
+/*}*/
+header dl + dl{
+    width:50%;
+    padding-left:37%;
+}
+ dt{
+     display: inline;
+     text-align: right;
+ }
+ dd{
+     display:inline;
+     margin:0;
+     font-weight:normal;
+      
+ }
+ dl{
+     display: inline;
+     
+    
+ }
+ th{
+     text-align:right;
+ }
+
+tbody th{
+    padding:2px 0;
+    text-align:left;
+    border-top:1px solid rgb(0,0,0);
+}
+
+tbody td{
+    border-top:1px solid rgb(0,0,0);
+    width:100%;
+    
+    
+}
+
+td.indent{
+    width:42px;
+    border-top:none;
+    
+}
+
+table + table td{
+    border:none;
+    width:42%;
+    
+}
+table + table thead th {
+    border-bottom:1px solid rgb(0,0,0);
+    /*width:50%;*/
+    text-align:left;
+    font-weight: normal;
+}
+
+table + table tr td.indent{
+    padding-top:2px;
+    padding-left:30px;
+    
+}
+
+html , body{
+    font-size:28px;
+    font-family: Helvetica;
+    line-height: normal;
+}
+
+
+td:last-child {
+    text-align: right;
+}
+
+
+table + table tbody tr td{
+    text-align:left;
+    padding-right:10px;
+}
+
+table + table{
+    font-size:.8rem;
+}
+
+table + table thead{
+    width:37%;
+} 
+
+table + table :last-child {
+      padding-right:90px;
+    
+}

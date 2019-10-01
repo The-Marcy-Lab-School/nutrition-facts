@@ -1,0 +1,181 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+   font: 28px Helvetica, Arial, sans-serif;
+  background: #ffffff;
+}
+
+dl{
+  display: flex;
+   margin: 0px;
+   width: 50%;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-left: 0px;
+  height: 38px;
+}
+
+
+dd{
+  margin-left: 0px;
+  padding-left: 8px;
+}
+
+aside dl:nth-child(2){
+  text-align: right;
+  margin-left: 100px;
+}
+
+.calTitle{
+  font-weight: bold;
+}
+
+aside{
+  display: flex;
+  border-bottom: 15px solid #000000;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+article{
+  border: 2px solid #000000;
+  width: 680px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+/* Nutrition Facts */
+header h1:only-of-type{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0px;
+}
+/* Amount per serving */
+main h1:only-of-type{
+  border-top: 30px solid #000000;
+  border-bottom: 1px solid #000000;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+/* serving size */
+header p:first-of-type{
+  margin: 0px;
+}
+
+header p:nth-child(3){
+  margin: 0px;
+}
+
+p{
+  font-family: Helvetica;
+  margin: 0px;
+}
+
+ul{
+  list-style: none;
+  margin: 0px;
+  padding-left:0px;
+}
+
+li{
+  border-bottom: 1px solid #000000;
+  display:flex;
+}
+
+li:first-of-type{
+  flex-direction: row-reverse;
+  font-weight: bold;
+}
+
+li dl:nth-of-type(2){
+  flex-direction: row-reverse; 
+}
+
+li:nth-child(3){
+  margin-left: 1rem;
+}
+
+li:nth-child(4){
+  margin-left: 1rem;
+}
+
+li:nth-child(8){
+  margin-left: 1rem;
+}
+
+li:nth-child(9){
+  margin-left: 1rem;
+}
+li:nth-child(10){
+  border-bottom: 20px solid #000000;
+}
+
+main p:only-of-type{
+  padding-top: 10px;
+  padding-bottom:10px;
+  font-size: .9rem;
+  width: 100%;
+  text-align: justify;
+  
+}
+
+dl dt:only-child{
+  font-weight: bold;
+}
+
+td{
+  font-size: .8rem;
+  
+}
+
+thead{
+  border-bottom: 1px solid #000000;
+}
+th{
+  padding: 1px;
+  font-size: .8rem;
+  text-align: left;
+}
+
+table th:first-of-type{
+  padding-left: 35px;
+}
+
+tbody{
+  padding: 2px;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .8rem;
+}
+
+tr{
+  font-size: .8rem;
+}
+
+#indent{
+  margin-left: 20px;
+}
+
+sup{
+  vertical-align: super;
+}
+
+i{
+  font-style: italic;
+}
+
+aside dl:nth-of-type(2){
+  flex-direction: row-reverse; 
+}

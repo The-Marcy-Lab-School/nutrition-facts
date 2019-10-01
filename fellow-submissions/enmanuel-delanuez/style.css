@@ -1,0 +1,133 @@
+html {font-size: 28px}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 680px;
+    height: 1200px;
+    font-size: 1rem;
+    padding: 10px 15px 15px 15px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+header {border-bottom: 15px solid black;}
+
+h1 {
+    font-family: "Libre Franklin", Arial, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1rem;
+    margin: 0;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+p {
+    margin: 0;
+}
+
+table + dl  {
+    font-size: .9rem;
+    padding: 15px 0;
+    padding-left: 18px;
+    text-align: left;
+    text-indent: -.3rem;
+}
+
+header p:nth-of-type(2) {border-bottom: 30px solid black; padding-bottom: 5px;}
+
+header p:nth-of-type(3) {
+    text-align: left;
+    display: inline-block;
+    padding: 5px 0;
+    width: 50%;
+}
+
+header p:nth-of-type(4) {
+    text-align: right;
+    display: inline-block;
+    padding: 5px 0;
+    width: 48.7%;
+}
+
+
+dl, dt, dd {
+   display: inline-block;
+   box-sizing: border-box;
+   margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 649px;
+    text-align: left;
+}
+
+td, th {
+    width: auto;
+}
+
+table dt {
+    font-weight: bold;
+}
+
+
+
+article > table tr {
+    border-bottom: 1px solid black;
+}
+
+table tr:nth-child(3) dt, table tr:nth-child(4) dt, table tr:nth-child(8) dt, table tr:nth-child(9) dt {
+    font-weight: normal;
+}
+
+article > table tr:nth-child(3) td:nth-child(1), article > table tr:nth-child(4) td:nth-child(1),
+article > table tr:nth-child(8) td:nth-child(1), article > table tr:nth-child(9) td:nth-child(1){
+    padding-left: 40px;
+    border-bottom: none;
+    border-top: 1px solid black
+}
+
+article > table tr:nth-last-child(5) td {
+    border-bottom: 20px solid black;
+}
+
+article > table tr:nth-child(n+10) td:nth-child(2) {
+    text-align: right;
+    font-weight: normal;
+    padding: 2px 0;
+}
+
+article > table tr td:nth-child(2) {
+    text-align: right;
+    font-weight: bold;
+    padding: 2px 0;
+}
+
+article > table tr:nth-child(1) td:nth-child(2) {
+    text-align: right;
+    font-weight: bold;
+    padding-top: 13px;
+}
+
+/*Section Table Stylings*/
+
+section table {
+    font-size: .8rem
+}
+
+section table tr:nth-child(1) {
+    border-bottom: 1px solid black;
+}
+
+section table th, section table td {
+    font-weight: normal;
+    padding: 2px 0;
+}
+
+section table tr:nth-child(3) th, section table tr:nth-child(7) th{
+    padding-left: 40px;
+}

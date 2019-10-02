@@ -1,75 +1,115 @@
 body{
    width:677px;
-   height:990px;
+   height:1164px;
    border:1.5px solid black;
-   font-family: Arial;    
+   font-family:Helvetica, Arial, sans-serif;    
 }
 
 h1{
    font-size:56px;
    width:677px;
    font-family: Helvetica;
-   margin:10px 0 0 15px ;
+   margin:0;
 }
 
 header{
+    padding-top:10px;
+    padding-bottom:5px;
     border-bottom:30px solid;
+    width:645px;
+    margin:auto;
+}
+
+article{
+   
+    width:647px;
+    margin:auto;
+    margin-bottom: 10px;
+}
+
+article dl:last-child{
+     border-bottom:14px solid;
+}
+
+article dl{
+    width:646px;
+    margin:auto;
+    padding:10px 0px;
+    font-size:28px;
+
+}
+
+article dl:nth-child(2){
+    padding:5px 0;
+}
+
+p{
+    font-size:28px;
+   padding:0;
+   margin:0; 
+}
+
+main dl{
+    padding:2px 0;
+    /*color:red;*/
+    font-size:28px;
+    
+}
+
+main dt{
+    width:400px;
 }
 
 
-h2{
-    text-align:right;
-   font-size:26px;
-   float:right;
-   margin:7px 15px 1px 0;
-} 
+main dl:last-child{
+    border-bottom: 20px solid;
+    
+    
+}
 
-p{
-   padding:0;
-   margin:0; 
+.tab{
+    margin-left:44px;
 }
 
 body{
     font: Helvetica, Arial, sans-serif;
 }
 main{
-    width:646px;
     margin:auto;
-    border-top:15px solid;
-    border-bottom: 20px solid;
 }
 
 dl{
     overflow:hidden;
     margin:0 15px;
-    width:646px;
-    font-size:26px;
     border-bottom:1px solid;
 }
 dt{
-    font-size:26px;
+    /*font-size:26px;*/
     float: left;
 }
 
 dd{
     float:right;
-    font-size:26px;
+    /*font-size:26px;*/
 }
 section{
-    margin:0 15px;
-    width:646px;
-    padding-top:10px;
-    padding-bottom:10px;
-    font-size:22px;
+    font-size:28px;
 }
 
-main table{
-    color:black;
-    margin:auto;
-    width:646px;
-    font-size:18px;
+section dl{
+    padding:2px 0;
 }
 
+
+ul {
+  list-style-type: none;
+}
+li::before {
+  content: "*";
+  margin-right:0;
+  position: relative;
+  top: -0.25em;
+}
 th{
     padding:0;
     font-weight:normal;
@@ -81,12 +121,33 @@ aside{
     width:646px;
 }
 
-.tab{
-    margin-left:25px;
-    font-size:26px;
+caption{
+    font-size:25.2px;
+    padding: 14px 0 14px 19px;
+    text-indent: -20px;
+    text-align: left;
 }
-
+thead tr th{
+    text-align:left;
+    border-bottom: 1px solid;
+    
+}
 table{
     width:646px;
     margin:auto;
+    font-size: 22.5px;
+    border-collapse: collapse;
+}
+
+table tr{
+    font-size:22.5px;
+    height:29px;
+}
+
+tr td:nth-child(1){
+    width:236px;
+}
+tbody th{
+    text-align: left;
+    text-indent:30px;
 }

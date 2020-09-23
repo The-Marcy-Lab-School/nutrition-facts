@@ -10,12 +10,10 @@
 
 * Now, the usual...
   1. Fork this repo.
-  2. Clone it.
-  3. Navigate to the `fellow-submissions` directory.
-  4. Create your own `first-last` folder.
-  5. Add your HTML and CSS there.
-  6. Stage and commit your changes regularly.
-  7. Push back up to your remote repo when done and open a pull request.
+  2. Clone your forked repo.
+  3. Create your HTML and CSS files.
+  4. Stage and commit your changes regularly.
+  5. Push back up to your remote repo when done and open a pull request into `The-Marcy-Lab-School:master` branch.
 
 ### Hints and Suggestions
 * Your font stack should use [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) for the main heading and Helvetica for the remaining fonts. Supply Arial as a back up.
@@ -29,7 +27,3 @@
 * It might be a good idea to use a table to represent the recommended daily values at the very bottom of the label.
 * Use a 28px font as the document's root font; use `rem` units to define other fonts.
 * Above all, remember: There is no _one way_ to complete this project. I expect to see a bunch of unique implentations and that is okay 👌🏾!
-
-### Due Date
-Monday, September 28 at 9AM
-

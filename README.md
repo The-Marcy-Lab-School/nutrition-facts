@@ -9,11 +9,14 @@
 * Use your semantic tags, you may not use `<div>` or `<span>` to complete this project.
 
 * Now, the usual...
-  1. Fork this repo.
-  2. Clone your forked repo.
-  3. Create your HTML and CSS files.
-  4. Stage and commit your changes regularly.
-  5. Push back up to your remote repo when done and open a pull request into `The-Marcy-Lab-School:master` branch.
+  1. If this is a *Practice Lab*, fork this repo and clone down the forked repo. **OR**
+  1. If this is a *Lab Assignment*, just clone this repo without forking it.
+  2. Create your HTML and CSS files.
+  3. Stage and commit your changes regularly.
+  4. Push back up to your remote repo when done. 
+  5. If this is a *Practice Lab*, open a pull request into `The-Marcy-Lab-School:master` branch to submit. **OR**
+  5. If this is a *Lab Assignment*, copy the URL of this repo and submit it through Canvas. 
+  
 
 ### Hints and Suggestions
 * Your font stack should use [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) for the main heading and Helvetica for the remaining fonts. Supply Arial as a back up.

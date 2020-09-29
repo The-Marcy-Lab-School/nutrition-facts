@@ -2,25 +2,29 @@
 ## Lab: Nutrition Facts 🍇
 
 ### Directions
-* Your task is to create a **pixel-perfect** replica of [this Nutritions Facts label](http://d3jtzah944tvom.cloudfront.net/lesson_5/nutrition_facts_label/label.html).
-* This may look simple but, actually, it is a culmination of everything that we have done so far. Thus, this is a **checkpoint lab**, meaning your project must pass the _blink test_ (or get really close) before you can move forward.
-* In order to complete this, you should expect to have to look up some things on your own. Often times, the best way to learn new material is to learn "on the job" so don't be afraid of referencing documentation on MDN.
-* Your goal is to leverage the power of CSS selectors. **You can use no more than one ID and one class to complete this project.**
-* Use your semantic tags, you may not use `<div>` or `<span>` to complete this project.
+Your task is to create a **pixel-perfect** replica of [this Nutritions Facts label](http://d3jtzah944tvom.cloudfront.net/lesson_5/nutrition_facts_label/label.html).
 
-* Now, the usual...
+This may look simple but, actually, it is a culmination of everything that we have done so far. Thus, this is a **checkpoint lab**, meaning your project must pass the _blink test_ (or get really close) before you can move forward.
+
+In order to complete this, you should expect to have to look up some things on your own. Often times, the best way to learn new material is to learn "on the job" so don't be afraid of referencing documentation on MDN.
+
+Your goal is to leverage the power of CSS selectors. **You can use no more than one ID and one class to complete this project.**
+
+Use your semantic tags, you may not use `<div>` or `<span>` to complete this project.
+
+Now, the usual...
   1. If this is a *Practice Lab*, fork this repo and clone down the forked repo. **OR**
-  1. If this is a *Lab Assignment*, just clone this repo without forking it.
+      * If this is a *Lab Assignment*, just clone this repo without forking it.
   2. Create your HTML and CSS files.
-  3. Stage and commit your changes regularly.
-  4. Push back up to your remote repo when done. 
-  5. If this is a *Practice Lab*, open a pull request into `The-Marcy-Lab-School:master` branch to submit. **OR**
-  5. If this is a *Lab Assignment*, copy the URL of this repo and submit it through Canvas. 
+  3. Stage, commit, and push your changes regularly.
+  4. If this is a *Practice Lab*, open a pull request into `The-Marcy-Lab-School:master` branch to submit. **OR**
+      * If this is a *Lab Assignment*, copy the URL of this repo and submit it through Canvas. 
   
 
 ### Hints and Suggestions
-* Your font stack should use [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) for the main heading and Helvetica for the remaining fonts. Supply Arial as a back up.
-* Use description lists for nutrient names and quantities:
+Your font stack should use [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) for the main heading and Helvetica for the remaining fonts. Supply Arial as a back up.
+
+Use description lists for nutrient names and quantities:
   ```html
   <dl>
     <dt>Total Carbohydrates</dt>
